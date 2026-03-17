@@ -21,7 +21,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load('solar_power_prediction_model.pkl')
+model = joblib.load('solar_power_genrator_model.pkl')
 
 st.title('Solar Power Generation Prediction System')
 
